@@ -8,7 +8,7 @@ class System:
         self.root = root
         self.root.title("System-Xplorer")
         self.root.geometry("502x629")
-        self.root.resizable(width=False, height=False)
+        self.root.resizable(width=True, height=True)
         
     def system_info_interface(self):
         
