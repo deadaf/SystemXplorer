@@ -2,6 +2,8 @@
 
 SystemXplorer is a comprehensive system information summary tool developed as a part of the OS Lab project. It provides a user-friendly interface to gather essential information about the system, including details about the operating system, CPU, disk, memory, network, processes, and battery (if applicable).
 
+https://github.com/deadaf/SystemXplorer/assets/72350242/fd93c3a4-68db-466b-9f60-3dc484b0b4a3
+
 ## Features
 
 - **OS Info**: Display detailed information about the operating system.
