@@ -1,7 +1,7 @@
 import time
 from tkinter import Frame, Tk, ttk
 
-from tabs import cpu_info, disk_info, mem_info, os_info, processes_info
+from tabs import cpu_info, disk_info, mem_info, os_info, processes_info, network_info
 
 
 class SystemXplorer:
@@ -36,6 +36,7 @@ class SystemXplorer:
         mem_info.populate_mem_info_tab(mem_tab, self.root)
         disk_info.populate_disk_info_tab(disk_tab)
         processes_info.populate_processes_info_tab(processes_tab)
+        network_info.populate_network_info_tab(network_tab, self.root)
 
 
 def print_authors_info():
