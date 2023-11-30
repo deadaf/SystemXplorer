@@ -1,14 +1,22 @@
 import time
 from tkinter import Frame, Tk, ttk
 
-from tabs import cpu_info, disk_info, mem_info, os_info, processes_info, network_info
+from tabs import (
+    cpu_info,
+    disk_info,
+    mem_info,
+    os_info,
+    processes_info,
+    network_info,
+    battery_info,
+)
 
 
 class SystemXplorer:
     def __init__(self, root: Tk):
         self.root: Tk = root
         self.root.title("System-Xplorer")
-        self.root.geometry("502x629")
+        self.root.geometry("600x730")
         self.root.resizable(width=True, height=True)
 
     def system_info_interface(self):
@@ -20,6 +28,7 @@ class SystemXplorer:
         disk_tab = Frame(notebook)
         processes_tab = Frame(notebook)
         network_tab = Frame(notebook)
+        battery_tab = Frame(notebook)
 
         notebook.add(os_tab, text="OS Info")
         notebook.add(cpu_tab, text="CPU Info")
@@ -28,6 +37,7 @@ class SystemXplorer:
 
         notebook.add(processes_tab, text="Processes")
         notebook.add(network_tab, text="Network Info")
+        notebook.add(battery_tab, text="Battery Info")
 
         notebook.pack(expand=True, fill="both")
 
@@ -37,6 +47,7 @@ class SystemXplorer:
         disk_info.populate_disk_info_tab(disk_tab)
         processes_info.populate_processes_info_tab(processes_tab)
         network_info.populate_network_info_tab(network_tab, self.root)
+        battery_info.populate_battery_info_tab(battery_tab, self.root)
 
 
 def print_authors_info():
