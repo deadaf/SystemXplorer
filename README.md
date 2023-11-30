@@ -11,6 +11,8 @@ SystemXplorer is a comprehensive system information summary tool developed as a 
 - **Network Info**: Present details about network interfaces and usage statistics.
 - **Processes Info**: List running processes with essential details.
 - **Battery Info**: If running on a laptop or battery-powered device, display battery information such as charge level, remaining time, status, and health.
+  
+![diagram (4)](https://github.com/deadaf/SystemXplorer/assets/72350242/d8b85ac8-76bd-4e68-b0ca-920892e3aef3)
 
 ## Getting Started
 
