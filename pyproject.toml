@@ -13,7 +13,8 @@ psutil = "^5.9.6"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.10.1"
+black = "^23.11.0"
+isort = "^5.12.0"
 
 [build-system]
 requires = ["poetry-core"]
