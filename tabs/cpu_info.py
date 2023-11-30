@@ -1,4 +1,5 @@
-from tkinter import Label, Frame, Listbox, Tk
+from tkinter import Frame, Label, Listbox, Tk
+
 import psutil
 
 

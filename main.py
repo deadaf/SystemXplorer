@@ -1,6 +1,7 @@
-from tkinter import Tk, ttk, Frame
 import time
-from tabs import os_info, cpu_info, mem_info, disk_info, processes_info
+from tkinter import Frame, Tk, ttk
+
+from tabs import cpu_info, disk_info, mem_info, os_info, processes_info
 
 
 class SystemXplorer:

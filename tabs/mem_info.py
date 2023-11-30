@@ -1,4 +1,5 @@
-from tkinter import Label, Frame, Tk
+from tkinter import Frame, Label, Tk
+
 import psutil
 
 mem_total = psutil.virtual_memory()[0] / 1073741824

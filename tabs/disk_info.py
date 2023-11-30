@@ -1,4 +1,5 @@
-from tkinter import Label, Frame
+from tkinter import Frame, Label
+
 import psutil
 
 

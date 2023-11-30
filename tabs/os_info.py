@@ -1,5 +1,5 @@
-from tkinter import Label, Frame
 import platform
+from tkinter import Frame, Label
 
 ARCHITECTURE = platform.architecture()[0]
 
